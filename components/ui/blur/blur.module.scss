@@ -1,0 +1,63 @@
+.wrapper {
+  .red {
+    position: relative;
+    .ellipse:nth-child(1) {
+      position: absolute;
+      width: 13rem;
+      height: 13rem;
+      right: 10rem;
+      top: -10rem;
+      background: rgba(115, 38, 40, 0.5);
+      filter: blur(9rem);
+    }
+    .ellipse:nth-child(2) {
+      position: absolute;
+      width: 20rem;
+      height: 20rem;
+      right: 250.02px;
+      top: 9rem;
+      background: rgba(115, 38, 40, 0.5);
+      filter: blur(17rem);
+    }
+    .ellipse:nth-child(3) {
+      position: absolute;
+      width: 10rem;
+      height: 10rem;
+      right: 30rem;
+      top: 30rem;
+      background: rgba(115, 38, 40, 0.5);
+      filter: blur(17rem);
+    }
+  }
+  .blue {
+    .ellipse:nth-child(1) {
+      position: absolute;
+      width: 22rem;
+      height: 22rem;
+      left: 23rem;
+      top: 23rem;
+      background: rgba(32, 58, 96, 0.6);
+      filter: blur(19rem);
+    }
+
+    .ellipse:nth-child(2) {
+      position: absolute;
+      width: 11rem;
+      height: 21rem;
+      left: 40rem;
+      top: 43rem;
+      background: rgba(32, 58, 96, 0.6);
+      filter: blur(17rem);
+    }
+
+    .ellipse:nth-child(3) {
+      position: absolute;
+      width: 11rem;
+      height: 11rem;
+      left: 117rem;
+      top: 43rem;
+      background: rgba(32, 58, 96, 0.6);
+      filter: blur(13rem);
+    }
+  }
+}
