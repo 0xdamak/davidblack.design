@@ -1,0 +1,25 @@
+.wrapper {
+  width: 34%;
+  text-align: center;
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 2.5rem;
+          height: 0.15rem;
+          width: 0rem;
+          background-color: var(--bg-white);
+          transition: all 0.2s;
+        }
+        &:hover::before {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

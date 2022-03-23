@@ -1,0 +1,12 @@
+.wrapper {
+  width: 33%;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  a {
+    &:not(:last-child) {
+      margin-right: 5rem;
+    }
+  }
+}
