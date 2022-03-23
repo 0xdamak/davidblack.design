@@ -1,0 +1,19 @@
+.wrapper {
+  height: calc(100vh - 9rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    width: 93rem;
+    margin: 2.4rem auto;
+  }
+  .button {
+    align-self: stretch;
+    align-self: flex-start;
+    margin: 0 auto;
+  }
+}
